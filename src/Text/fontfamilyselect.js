@@ -1,7 +1,7 @@
 import React from "react";
 import * as MaterialUI from "@material-ui/core";
 import clsx from "clsx";
-import Fonts from "./config.json";
+import { fonts } from "./fonts.js";
 
 const useStyles = MaterialUI.makeStyles(theme => {
   return {
@@ -31,7 +31,7 @@ const FontFamilySelect = props => {
         value={"'Roboto', sans-serif"}
         className={clsx(textData.id, classes.select)}
       >
-        {Fonts.fonts.map((font, i) => (
+        {fonts.map((font, i) => (
           <MaterialUI.MenuItem
             key={i}
             selected={font.name === "Roboto"}
