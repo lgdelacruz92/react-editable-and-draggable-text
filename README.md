@@ -13,17 +13,22 @@ npm install --save react-editable-and-draggable-text
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from "react";
+import Text from "./Text/text";
 
-import MyComponent from 'react-editable-and-draggable-text'
-
-class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
+function App() {
+  const text = {
+    id: "unique-id-123",
+    text: "Hello World"
+  };
+  return (
+    <div className="App">
+      <Text textData={text} />
+    </div>
+  );
 }
+
+export default App;
 ```
 
 ## License
