@@ -4,6 +4,8 @@
 
 [![NPM](https://img.shields.io/npm/v/react-editable-and-draggable-text.svg)](https://www.npmjs.com/package/react-editable-and-draggable-text) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+[![Example](https://media.giphy.com/media/VDHZr9ubhTmOPDHT4p/giphy.gif "Example")](https://media.giphy.com/media/VDHZr9ubhTmOPDHT4p/giphy.gif "Example")
+
 ## Install
 
 ```bash
