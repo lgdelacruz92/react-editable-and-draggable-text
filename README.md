@@ -9,6 +9,9 @@
 ## Install
 
 ```bash
+npm install --save-dev react-autosize-textarea
+npm install --save-dev clsx
+npm install --save-dev @material-ui/core
 npm install --save react-editable-and-draggable-text
 ```
 
